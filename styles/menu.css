@@ -1,0 +1,150 @@
+/* The wrapper div should be wrapped around the page content and be at least 100% page height for the iPad, iPhone and iPod Touch */
+html, body {padding:0; margin:0;}
+.wrapper {display:block; padding:10px;}
+article.menu header {display:block; width:100%; margin:0 auto;}
+article.menu {display:block; width:100%; margin:0 auto;}
+article.menu h1 {margin:0; padding:0; font:normal 30px/50px TeXGyreAdventorBold, arial, sans-serif; color:#333;}
+article.menu h2 {margin:0; padding:0; font:normal 25px/40px TeXGyreAdventorBold, arial, sans-serif; color:#333;}
+article.menu h3 {margin:0; padding:0; font:normal 20px/30px TeXGyreAdventorBold, arial, sans-serif; color:#333;}
+article.menu h4 {margin:0; padding:0; font:normal 15px/20px TeXGyreAdventorBold, arial, sans-serif; color:#333;}
+article.menu p {margin:0; padding:0; font:normal 13px/18px TeXGyreAdventorRegular, arial, sans-serif; color:#333;}
+article.menu b {margin:0; padding:0; font:normal 14px/18px TeXGyreAdventorBold, arial, sans-serif; color:#333;}
+article.menu ul.lists {clear:left;}
+article.menu ul.lists li {margin:0; padding:0; font:normal 13px/18px TeXGyreAdventorRegular, arial, sans-serif; color:#666;}
+article.menu ul.lists li b {margin:0; padding:0; font:normal 14px/18px TeXGyreAdventorBold, arial, sans-serif; color:#333;}
+article.menu ul.lists li a {margin:0; padding:0; font:normal 13px/18px TeXGyreAdventorBold, arial, sans-serif; color:#069;}
+article.menu p a {margin:0; padding:0; font:normal 14px/18px TeXGyreAdventorBold, arial, sans-serif; color:#fff; padding:5px 10px; background:#069; text-decoration:none; margin:5px 0 20px 0; }
+article.menu .googlemedium {float:right; width:300px;}
+/* ================================================================
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/cssplay-responsive-dropdown-touch-screen.html
+Copyright (c) Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any
+way to fit your requirements.
+=================================================================== */
+article.menu nav {width:100%; margin:0px 0; text-align:center; position:relative; z-index:100; background:#09c; height: 40px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+-ms-touch-action: none;
+}
+
+article.menu ul {margin:0; padding:0; list-style:none; white-space:nowrap; text-align:left; }
+article.menu ul {display:inline-block;}
+article.menu > nav > ul {max-width: 800px; padding: 0px auto; height: 36px;}
+
+article.menu li {display:block; position:relative; z-index:10;}
+
+article.menu ul ul {
+	position:absolute; left:-9999px; top:36px; padding: 0px 0px 10px 0px; z-index:10;
+}
+article.menu ul ul ul {left:100%; top:auto; margin-top:-40px;}
+article.menu ul li.left > ul {left:auto; right:0; top:40px;}
+article.menu ul li.left ul li > ul {left:auto; right:100%; top:auto; margin-top:-40px;}
+
+article.menu > nav > ul > li {float:left;}
+
+article.menu ul {background:#09c;}
+article.menu ul ul {background:#c60;}
+article.menu ul ul ul {background:#690;}
+article.menu ul ul ul ul {background:#66c;}
+
+article.menu a {display:block; font:normal 16px/40px "Ubuntu Condensed", arial, sans-serif; color:#fff; text-decoration:none; padding:0 20px; position:relative; z-index:10;}
+article.menu > nav > ul > li > a {background:#09c; line-height:40px;}
+article.menu > nav > ul > li > b {
+	display:block; position:relative; width:100%; margin-top:-70px; height:70px; background: url(trans.gif); z-index:50;
+}
+article.menu ul ul > li > b {
+	display:block; position:relative; margin-top:-40px; width:100%; height:27px; background: url(trans.gif); z-index:50;
+}
+article.menu li:hover {z-index:100;}
+article.menu li:hover > b {width:0;}
+article.menu li.left ul a {text-align:right;}
+
+article.menu li:hover > a,
+article.menu ul li:hover > a {color:#ff0;}
+
+article.menu ul li a.hassub {background:url(down.gif) no-repeat right center;}
+article.menu li.left ul li a.hassub {background:url(down.gif) no-repeat left center;}
+article.menu > nav > ul > li > a.hassub {background:#09c; line-height:40px;}
+article.menu > nav > ul > li:hover > a.hassub {background:#09c; line-height:40px;}
+article.menu > nav > ul > li {background:#09c; line-height:40px;}
+
+
+article.menu ul ul,
+article.menu ul ul ul,
+article.menu ul li.left > ul,
+article.menu ul li.left ul li > ul {left:-9999px; right:auto; opacity:0;}
+
+article.menu ul li:hover > ul {left:0; opacity:1;}
+article.menu ul ul li:hover > ul {left:100%; opacity:1;}
+article.menu ul li.left:hover > ul {left:auto; right:0; opacity:1;}
+article.menu ul li.left ul li:hover > ul {left:auto; right:100%; opacity:1;}
+
+article.menu ul li:hover > a.hassub {background:url(right.gif) no-repeat right center;}
+article.menu li.left ul li:hover > a.hassub {background:url(left.gif) no-repeat left center;}
+
+article.menu ul li ul li ul li {
+	height:27px;
+}
+
+article.menu ul li ul li ul li.menuTopic {
+	height:40px;
+}
+
+article.menu ul > li.menuTopic > a, article.menu ul > li.menutopic:hover > a {
+	margin: 10px;
+	color: #000000;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 8px;
+}
+
+article.menu ul > li > a.disabled, article.menu ul > li:hover > a.disabled {
+	color: #bbbbbb;
+	pointer-events: none;
+	cursor: default;
+}
+
+li#search {
+	height: 40px;
+	background:#09c;
+}
+
+li#search a {
+	height: 25px;
+	border: 2px inset black;
+	text-align: left;
+	margin-top: 8px;
+	padding-left: 5px;
+	line-height: 25px;
+	color: #aaaaaa;
+	background: #ffffff;
+	font-style: italic;
+}
+
+li#searchBtn {
+	height: 40px;
+	background:#09c;
+}
+
+li#searchBtn a {
+	height: 25px;
+	border: 2px outset black;
+	margin-top: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 25px;
+	text-align: center;
+	font-style: bold;
+	color: #000000;
+	background: #ffffff;
+}
+

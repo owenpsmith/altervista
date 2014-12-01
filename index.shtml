@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Owen Smith</title>
+	<meta charset="UTF-8">
+	<link type="text/css" href="styles/style.css"       rel="stylesheet">
+	<link type="text/css" href="styles/menu.css"        rel="stylesheet"  media="only screen and (min-device-width: 481px)"/>
+	<link type="text/css" href="styles/styleMobile.css" rel="stylesheet"  media="only screen and (max-device-width: 480px)"/>
+	<link type="text/css" href="styles/menuMobile.css"  rel="stylesheet"  media="only screen and (max-device-width: 480px)"/>
+	<link type="text/css" href="styles/stylePrint.css"  rel="stylesheet"  media="print" />
+</head>
+
+<body>
+
+	<section id="content">
+
+		<header><h1>Owen Smith</h1></header>
+
+		<p>
+			Welcome to my web page.
+		</p>
+
+		<!--#include virtual="/withoutanet/protosite/ssi/menu.ssi"-->
+
+	</section>
+
+</body>
+</html>

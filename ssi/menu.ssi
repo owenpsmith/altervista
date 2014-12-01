@@ -1,0 +1,24 @@
+<article class="menu"><nav>
+	<ul>
+		<li id="home"><a href="/index.shtml">Home</a></li>
+		<li><a class="hassub" href="/flightgear/index.shtml">FlightGear</a><b aria-haspopup="true" aria-controls="p3"></b>
+			<ul id="p3">
+				<li><a class="hassub">Aircraft</a><b aria-haspopup="true" aria-controls="p4"></b>
+					<ul id="p4">
+						<li class="inline"><a href="/flightgear/aircraft.shtml">My Aircraft</a></li>
+						<li class="inline"><a href="/flightgear/enhancements.shtml">Aircraft Enhancements</a></li>
+						<li class="inline"><a href="/flightgear/liveries.shtml">Liveries</a></li>
+					</ul>
+				</li>
+				<li><a class="hassub">Scenery</a><b aria-haspopup="true" aria-controls="p5"></b>
+					<ul id="p5">
+						<li class="inline"><a href="/withoutanet/protosite/week-xx/notes.shtml">Projects</a></li>
+						<li class="inline"><a href="/withoutanet/protosite/week-xx/assignment.shtml">Models</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li><a href="links.shtml">My favorite links</a></li>
+		<li><a href="http://validator.w3.org/check?uri=referer" target="_blank">Validate</a></li>
+	</ul>
+</nav></article>

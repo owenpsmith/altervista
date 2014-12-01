@@ -1,0 +1,39 @@
+article.menu > nav > ul > li > a {
+	font-size: 60px;
+}
+
+article.menu > nav > ul > li > ul > li > a {
+	font-size: 50px;
+}
+
+article.menu > nav > ul > li > ul > li > ul > li.menuTopic > a {
+	font-size: 40px;
+}
+
+article.menu > nav > ul > li > ul > li > ul > li.inline > a {
+	font-size: 50px;
+}
+
+li#search, li#searchBtn {
+	display: none;
+}
+
+article.menu ul > li > a.disabled {
+	color: #bbbbbb;
+	pointer-events: none;
+	cursor: default;
+}
+
+li.inline {
+	display: inline;
+	padding-right: 10px;
+}
+
+a.hassub, article.menu > nav > ul > li > a {
+	font-weight: bold;
+}
+
+li#home {
+	display: none;
+}
+
