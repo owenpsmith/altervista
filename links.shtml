@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Owen's Links</title>
+	<meta charset="UTF-8">
+	<link type="text/css" href="../styles/style.css"       rel="stylesheet">
+	<link type="text/css" href="../styles/menu.css"        rel="stylesheet"  media="only screen and (min-device-width: 481px)"/>
+	<link type="text/css" href="../styles/styleMobile.css" rel="stylesheet"  media="only screen and (max-device-width: 480px)"/>
+	<link type="text/css" href="../styles/menuMobile.css"  rel="stylesheet"  media="only screen and (max-device-width: 480px)"/>
+	<link type="text/css" href="../styles/stylePrint.css"  rel="stylesheet"  media="print" />
+</head>
+
+<body class="notes">
+
+	<!--#include virtual="/ssi/menu.ssi"-->
+
+	<section id="content">
+
+		<header><h1>Owen's Favorite Links</h1></header>
+
+		<article class="topic">
+			<header><h3><a>FlightGear</a></h3></header>
+			<ul>
+				<li><a href="http://flightGear.org">FlightGear</a></li>
+				<li><a href="http://wiki.flightGear.org">FlightGear Wiki</a></li>
+				<li><a href="http://scenemodels.flightgear.org">FlightGear Scenery</a></li>
+				<li><a href="http://liveries.flightgear.org">FlightGear Aircraft Liveries</a></li>
+			</ul>
+		</article>
+
+		<article class="topic">
+			<header><h3><a>Software</a></h3></header>
+			<ul>
+				<li><a href="http://flightGear.org">FlightGear</a> - open source flight simulator</li>
+				<li>
+					<a href="http://www.inivis.com">AC3D</a> - 3D modelling software I use for FlightGear aircraft and scenery development.
+					AC3D is the default format of FlightGear models.
+				</li>
+				<li><a href="http://gimp.org">GIMP</a> - open source graphic editor I use for my photography as well as FlightGear model textures.</li>
+				<li><a href="http://hugin.sourceforge.net">Hugin</a> - panoramic photo stitcher.</li>
+				<li><a href="http://github.com">GitHub</a> - online Git based source code repository.</li>
+			</ul>
+		</article>
+
+		<article class="topic">
+			<header><h3><a>Aviation</a></h3></header>
+			<ul>
+				<li><a href="http://airliners.net">Airliners.net</a> - Great resource for aviation photography, and FlightGear livery development</li>
+				<li><a href="http://www.avialogs.com">Avialogs</a> - Resource for aviation documents and photographs</li>
+			</ul>
+		</article>
+
+	</section>
+
+</body>
+</html>
