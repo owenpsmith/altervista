@@ -22,16 +22,23 @@
 
 		<article class="topic">
 			<header><h3><a>FlightGear</a></h3></header>
+			<p>
+				Some of the common FlightGear sites I as both a user and contributor:
+			</p>
 			<ul>
 				<li><a href="http://flightGear.org">FlightGear</a></li>
 				<li><a href="http://wiki.flightGear.org">FlightGear Wiki</a></li>
 				<li><a href="http://scenemodels.flightgear.org">FlightGear Scenery</a></li>
 				<li><a href="http://liveries.flightgear.org">FlightGear Aircraft Liveries</a></li>
+				<li><a href="http://forum.flightgear.org">FlightGear Forum</a></li>
 			</ul>
 		</article>
 
 		<article class="topic">
 			<header><h3><a>Software</a></h3></header>
+			<p>
+				Some of my favorite software applications and sites I use for photography and FlightGear development:
+			</p>
 			<ul>
 				<li><a href="http://flightGear.org">FlightGear</a> - open source flight simulator</li>
 				<li>
@@ -46,8 +53,12 @@
 
 		<article class="topic">
 			<header><h3><a>Aviation</a></h3></header>
+			<p>
+				Some of my favorite aviation sites:
+			</p>
 			<ul>
 				<li><a href="http://airliners.net">Airliners.net</a> - Great resource for aviation photography, and FlightGear livery development</li>
+				<li><a href="http://liveatc.net">LiveATC.net</a> - Listen to live ATC communications from around the world</li>
 				<li><a href="http://www.avialogs.com">Avialogs</a> - Resource for aviation documents and photographs</li>
 			</ul>
 		</article>

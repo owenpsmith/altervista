@@ -18,14 +18,16 @@
 
 		<header><h1>Owen Smith</h1></header>
 
-		<p>
-			This site documents some of my interests, hobbies, and projects.  Not the least of which is my contributions to the
-			<a href="http://fightgear.org">FlightGear</a> open source flight simulator project.
-		</p>
+		<article class="topic">
+			<p>
+				This site documents some of my interests, hobbies, and projects.  Not the least of which is my contributions to the
+				<a href="http://fightgear.org">FlightGear</a> open source flight simulator project.
+			</p>
 
-		<p>
-			You will also find out about my photography, and my (long term) project of building a penny farthing bicycle.
-		</p>
+			<p>
+				You will also find out about my photography, and my (long term) project of building a penny farthing bicycle.
+			</p>
+		</article>
 
 		<!--#include virtual="/ssi/menu.ssi"-->
 

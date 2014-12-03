@@ -7,7 +7,7 @@
 html, body.notes {
 	margin:  0;
 	padding: 0;
-	background: #eeeeee;
+	background: #333333;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 30px;
 	line-height: 1.5;
@@ -41,7 +41,7 @@ h4 {
 }
 
 h5 {
-	background: #cccccc;
+	background: #333333;
 	font-size: 1.0em;
 	font-weight: bold;
 	padding-left: 1em;
@@ -50,7 +50,7 @@ h5 {
 
 #content {
 	max-width: initial;
-	background: #ffffff;
+	background: #cccccc;
 	padding: 10px;
 }
 
@@ -60,7 +60,7 @@ nav#internalLinks {
 }
 
 article.topic {
-	background: #f7f7ff;
+	background: #eeeeee;
 	margin-top: 20px;
 	margin-botom: 20px;
 	padding: 10px;

@@ -5,15 +5,15 @@
 			<ul id="p3">
 				<li><a class="hassub">Aircraft</a><b aria-haspopup="true" aria-controls="p4"></b>
 					<ul id="p4">
-						<li class="inline"><a href="/flightgear/aircraft.shtml">My Aircraft</a></li>
-						<li class="inline"><a href="/flightgear/enhancements.shtml">Aircraft Enhancements</a></li>
-						<li class="inline"><a href="/flightgear/liveries.shtml">Liveries</a></li>
+						<li class="inline"><a href="/flightgear/aircraft/enhancements.shtml">Aircraft Enhancements</a></li>
+						<li class="inline"><a href="/flightgear/aircraft/aircraft.shtml">My Aircraft</a></li>
+						<li class="inline"><a href="/flightgear/aircraft/liveries.shtml">Liveries</a></li>
 					</ul>
 				</li>
 				<li><a class="hassub">Scenery</a><b aria-haspopup="true" aria-controls="p5"></b>
 					<ul id="p5">
-						<li class="inline"><a href="/withoutanet/protosite/week-xx/notes.shtml">Projects</a></li>
-						<li class="inline"><a href="/withoutanet/protosite/week-xx/assignment.shtml">Models</a></li>
+						<li class="inline"><a href="/flightgear/scenery/projects.shtml">Projects</a></li>
+						<li class="inline"><a href="/flightgear/scenery/projects.shtmll">Models</a></li>
 					</ul>
 				</li>
 			</ul>
